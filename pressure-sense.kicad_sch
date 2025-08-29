@@ -1,0 +1,2340 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5d3a0163-52d4-4092-a168-0a6668095290")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BMP581:BMP581"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 26.67 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BMP581"
+				(at 26.67 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BMP581"
+				(at 26.67 -84.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+				(at 26.67 -184.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 26.67 -384.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "262-BMP581"
+				(at 26.67 -484.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+				(at 26.67 -584.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "BOSCH"
+				(at 26.67 -684.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BMP581"
+				(at 26.67 -784.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BMP581_1_1"
+				(rectangle
+					(start 5.08 12.7)
+					(end 25.4 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 90)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -20.32 90)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 17.78 270)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 222.25 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67247b7a-66a8-475a-b769-27943442d5dc")
+	)
+	(junction
+		(at 199.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b11dc47-8717-4d10-9788-d99b685134a6")
+	)
+	(junction
+		(at 228.6 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81430c27-9326-42db-9f54-4e107067b77f")
+	)
+	(junction
+		(at 198.12 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9f8bb1-5ff0-4e5d-af1f-f59ebb5cce40")
+	)
+	(junction
+		(at 223.52 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e21803-51c7-4c68-b298-6d0bd7437ed8")
+	)
+	(junction
+		(at 227.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7c1f23-ecff-4d4b-abf2-4074a344f20a")
+	)
+	(wire
+		(pts
+			(xy 224.79 107.95) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052c3d39-669d-44e5-8dc8-590123d9cc7e")
+	)
+	(wire
+		(pts
+			(xy 199.39 67.31) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd9354a-e5b4-403c-95b8-b88883b1eabc")
+	)
+	(wire
+		(pts
+			(xy 226.06 40.64) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b82f06-7532-45bf-8993-273e3d8dba2d")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 222.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ea5e26-cdd8-491e-89b1-06bd450c0ded")
+	)
+	(wire
+		(pts
+			(xy 224.79 113.03) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26088085-b385-4102-89bb-5599df00a4a6")
+	)
+	(wire
+		(pts
+			(xy 218.44 39.37) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34436226-1b85-468f-8f71-e8c3b00d9fac")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d1b452-6004-4b6d-9f8e-1528fb10da44")
+	)
+	(wire
+		(pts
+			(xy 198.12 130.81) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f9570a-fff7-44eb-a71e-742b6f75a1fa")
+	)
+	(wire
+		(pts
+			(xy 198.12 130.81) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e8525b-74b0-450f-82b0-1a5f873e6497")
+	)
+	(wire
+		(pts
+			(xy 222.25 100.33) (xy 222.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d2939b-bd4f-4525-b9f5-74b5ac6f4501")
+	)
+	(wire
+		(pts
+			(xy 233.68 107.95) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d4b3a3-5896-484a-a6a4-97459e2737dd")
+	)
+	(wire
+		(pts
+			(xy 218.44 30.48) (xy 223.52 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afa898b-f232-4312-a8f2-3bb41e16213b")
+	)
+	(wire
+		(pts
+			(xy 228.6 35.56) (xy 234.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b1eb73-da89-4c66-96e1-bca6361482fc")
+	)
+	(wire
+		(pts
+			(xy 227.33 107.95) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9850dc44-8d85-4d3f-b6ee-59b25fd3ca29")
+	)
+	(wire
+		(pts
+			(xy 222.25 151.13) (xy 222.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5942554-852f-4d70-b9cf-489ed4fba827")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 199.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76c2fcc-189c-4988-b381-01d54edc2341")
+	)
+	(wire
+		(pts
+			(xy 222.25 102.87) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7e9048-28a6-4882-8ff5-9d57218bd4c6")
+	)
+	(wire
+		(pts
+			(xy 226.06 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c777dd-941d-440a-a60e-0cadb5be9ace")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 210.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60c2375-861a-4147-9a45-f5a45418b700")
+	)
+	(wire
+		(pts
+			(xy 218.44 31.75) (xy 218.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a3a669-ffe7-4bfa-8b18-f2e086ffd747")
+	)
+	(wire
+		(pts
+			(xy 234.95 35.56) (xy 234.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfd2790-02bd-41fa-baab-d1354e334191")
+	)
+	(wire
+		(pts
+			(xy 198.12 139.7) (xy 198.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc00d211-ba93-4d83-9206-30d5c7d84227")
+	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 223.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6fd167-81e1-4095-b6fd-d2f2702b0e19")
+	)
+	(wire
+		(pts
+			(xy 223.52 30.48) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d040ad66-6b02-41d2-877d-e71bef46b80d")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53e23fc-76f4-42d7-bde4-acf55e0a5192")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d605e83e-d243-4ca9-b253-030b43b350d4")
+	)
+	(wire
+		(pts
+			(xy 217.17 104.14) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7d8646-8139-451f-90b3-e0f8e5ba1a20")
+	)
+	(wire
+		(pts
+			(xy 198.12 129.54) (xy 198.12 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ec0c34-2e6a-4adc-b88c-4f4bf7230865")
+	)
+	(wire
+		(pts
+			(xy 223.52 27.94) (xy 223.52 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7db8410-d64d-4480-a242-e685f1204569")
+	)
+	(wire
+		(pts
+			(xy 227.33 113.03) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9c634b-ebf9-4995-91fc-47399948c31c")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 198.12 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e346094-24f2-415e-b830-81f84a6f2ae8")
+		(property "Reference" "C10"
+			(at 192.278 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 190.246 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.0852 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df0651b-b100-42ad-b50f-59adbbb84805")
+		)
+		(pin "2"
+			(uuid "b2995063-65d6-4fb4-9ab8-b713ae3d4628")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c31f0b-414d-470f-86f9-9ea99ca97303")
+		(property "Reference" "#PWR19"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba7ca0c0-d77c-4d80-ba21-68adbcea3ab3")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51cd22bf-d0ae-416b-9054-d3c8e83d5f7e")
+		(property "Reference" "#PWR12"
+			(at 223.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.52 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 223.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5ceda5-8cfe-4686-ae0c-01a459a8eb33")
+		)
+		(instances
+			(project ""
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 222.25 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b741c1e-35c2-4241-954c-2a3f1e0cd67c")
+		(property "Reference" "#PWR21"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55cca3ab-e2d3-4029-b6db-e0ff39c53b7d")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "679c4d3e-ba38-4580-b33d-1d067df164c3")
+		(property "Reference" "#PWR13"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.376 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54f7a2b9-5da4-48df-b357-aaebb85fa132")
+		)
+		(instances
+			(project ""
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMP581:BMP581")
+		(at 209.55 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc6f5db-7a21-4335-940a-631b1b52f114")
+		(property "Reference" "U3"
+			(at 240.03 124.4914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 240.03 127.0314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP581"
+			(at 236.22 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 236.22 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
+			(at 209.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 236.22 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "262-BMP581"
+			(at 236.22 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+			(at 236.22 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BOSCH"
+			(at 236.22 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMP581"
+			(at 236.22 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "16ab5e16-9348-49da-8434-2ebeb462ce8a")
+		)
+		(pin "7"
+			(uuid "5019161c-da3f-4d20-a536-14ba6306ba27")
+		)
+		(pin "3"
+			(uuid "317a142e-b252-4552-ae78-73eebf0cce52")
+		)
+		(pin "4"
+			(uuid "ec3a5b35-17d9-40ad-bd9e-c49dbd51379c")
+		)
+		(pin "5"
+			(uuid "8ca77e77-7a15-4834-86d3-19f73ee098f1")
+		)
+		(pin "6"
+			(uuid "268f5bb9-1491-471e-8ef9-236ce4304430")
+		)
+		(pin "8"
+			(uuid "b8d7d645-9b36-40b5-9a2c-aae23a7fe78a")
+		)
+		(pin "9"
+			(uuid "01c98b4a-5c90-4d9a-85a3-665ce7b6cb4a")
+		)
+		(pin "2"
+			(uuid "bf70958b-2474-4acb-9043-bbea0720dce6")
+		)
+		(pin "1"
+			(uuid "74e1d5b7-a4a2-4fc8-885d-c782a9109449")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e8f4c9c-1d38-4bed-bbf3-7dc132705336")
+		(property "Reference" "#PWR20"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.106 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b4690d-2282-46ec-b3ca-9e751e12d91d")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71cf29f9-2840-4d3e-b72a-8deee47a91f8")
+		(property "Reference" "C11"
+			(at 211.328 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 209.296 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.1352 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c53a39-73a9-4332-829d-cda60088f5eb")
+		)
+		(pin "2"
+			(uuid "0119a2dd-001c-40a6-ba41-6e490955154c")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0be0f5-8685-4536-b36d-758f1e0b1f40")
+		(property "Reference" "#PWR14"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228a79ea-8d18-4207-8551-1f8c5e9daef0")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "847b736b-2a3a-440e-bbb3-e7754a4fa8d5")
+		(property "Reference" "C8"
+			(at 193.548 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 191.516 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.3552 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e54facc9-dd9d-4777-a761-c5f403f612e9")
+		)
+		(pin "2"
+			(uuid "17b6021b-dc81-4652-8edf-a65d8cde0f2c")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMP581:BMP581")
+		(at 210.82 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92e811a8-401c-4c68-8ec4-df79ab016dd0")
+		(property "Reference" "U2"
+			(at 241.3 52.1014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 241.3 54.6414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP581"
+			(at 237.49 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 237.49 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 237.49 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "262-BMP581"
+			(at 237.49 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+			(at 237.49 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BOSCH"
+			(at 237.49 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMP581"
+			(at 237.49 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "8cd37fb2-f8be-472a-91df-619d0d39e1a4")
+		)
+		(pin "7"
+			(uuid "7c34efa2-5510-4921-8091-ef3e249c7389")
+		)
+		(pin "3"
+			(uuid "589abec8-5a17-4d47-9610-6a1e1cd377b1")
+		)
+		(pin "4"
+			(uuid "b0ac6734-64c3-4e0b-8b2c-c14eb19b76d4")
+		)
+		(pin "5"
+			(uuid "2411c92d-74a4-43bc-9709-7f58ec7ee892")
+		)
+		(pin "6"
+			(uuid "f7603172-54d2-459a-8ba4-441916090766")
+		)
+		(pin "8"
+			(uuid "05ca0e17-ca23-4c02-8073-7c5b480283ba")
+		)
+		(pin "9"
+			(uuid "0d0d9786-6837-4634-aaa5-7dc47052b116")
+		)
+		(pin "2"
+			(uuid "67de4acd-562c-4954-b910-37cbacf8048c")
+		)
+		(pin "1"
+			(uuid "ab2c35df-20df-4db7-bdae-b20e21b685d7")
+		)
+		(instances
+			(project ""
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93285906-8e2a-4b6f-bee1-d1e966801fc6")
+		(property "Reference" "#PWR22"
+			(at 222.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cc28f10-c226-4923-813e-051dd5cfbc51")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 199.39 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94ab6d92-7541-4224-a868-9d859c4914ca")
+		(property "Reference" "#PWR15"
+			(at 199.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a7f7870-044b-4c06-98a9-313923229374")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a07bbe95-cc15-47cf-893c-f00b4565fd59")
+		(property "Reference" "#PWR23"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea5b6c2-6c19-4aa8-9853-80bc853f4d1f")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a47707b1-ed94-4de0-a5f6-5b56b8f0a86d")
+		(property "Reference" "C9"
+			(at 212.598 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 210.566 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.4052 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85e51b1-b0ef-46f2-ac59-8eec7f7f6d3f")
+		)
+		(pin "2"
+			(uuid "7b3835c7-b73a-47c6-b9cd-c6861396d822")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 198.12 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf8ee176-f56b-4fcc-8339-81b551d5ffe0")
+		(property "Reference" "#PWR18"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c5fda5-a98f-4d17-82f1-121ded0ca9d0")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8940747-1fad-44ac-8102-9c797670a4ea")
+		(property "Reference" "#PWR17"
+			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c25bf2-146e-486a-9fa2-544eab1bc9f0")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf76d204-d135-40a4-8a1c-aceab53fb1a0")
+		(property "Reference" "#PWR16"
+			(at 223.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e04189-b6de-429a-a9de-75270889764d")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/6b3ce124-4855-4cb0-b245-f8ec287b9ecc"
+					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
