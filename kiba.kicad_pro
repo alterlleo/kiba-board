@@ -388,12 +388,8 @@
       "Root"
     ],
     [
-      "4175b9d7-8b19-4112-b73b-347e40f2bc54",
-      "VOC sensors"
-    ],
-    [
-      "6b3ce124-4855-4cb0-b245-f8ec287b9ecc",
-      "Pressure sensors"
+      "20f4cbdc-d1db-4d2f-acce-cbdfb89574ee",
+      "Sensors"
     ]
   ],
   "text_variables": {}
