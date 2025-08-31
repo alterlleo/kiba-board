@@ -5766,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P244X244X95-7N"
+		(property "Footprint" "Local:SON80P244X244X95-7N"
 			(at 246.38 148.26 0)
 			(effects
 				(font
@@ -5902,7 +5902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 52.07 90)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 342.392 97.79 90)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 100.33 90)
 			(effects
 				(font
@@ -6460,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "Local:BMP581"
 			(at 130.81 270.18 0)
 			(effects
 				(font
@@ -6671,7 +6671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 46.99 90)
 			(effects
 				(font
@@ -6985,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "Local:BMP581"
 			(at 130.81 145.72 0)
 			(effects
 				(font
@@ -7441,7 +7441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 314.96 191.77 0)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 166.37 0)
 			(effects
 				(font
@@ -7891,7 +7891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 87.63 90)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 114.3 90)
 			(effects
 				(font
@@ -8340,7 +8340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 104.14 0)
 			(effects
 				(font
@@ -8409,7 +8409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 40.64 90)
 			(effects
 				(font
@@ -8877,7 +8877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 41.91 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 238.76 90)
 			(effects
 				(font
@@ -9280,7 +9280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 228.6 0)
 			(effects
 				(font
@@ -9524,7 +9524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 104.14 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 176.53 90)
 			(effects
 				(font
@@ -9859,7 +9859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 142.24 250.19 0)
 			(effects
 				(font
@@ -9932,7 +9932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 352.552 97.79 90)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 331.47 191.77 0)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 142.24 187.96 0)
 			(effects
 				(font
@@ -10279,7 +10279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 144.78 90)
 			(effects
 				(font
@@ -10413,7 +10413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 41.91 0)
 			(effects
 				(font
@@ -10483,7 +10483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -10664,7 +10664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-25N-D"
+		(property "Footprint" "Local:QFN50P400X400X100-25N-D"
 			(at 342.9 210.49 0)
 			(effects
 				(font
@@ -10964,7 +10964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 138.43 90)
 			(effects
 				(font
@@ -11227,7 +11227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P244X244X95-7N"
+		(property "Footprint" "Local:SON80P244X244X95-7N"
 			(at 246.38 246.05 0)
 			(effects
 				(font
@@ -11493,7 +11493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 53.34 90)
 			(effects
 				(font
@@ -11562,7 +11562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 228.6 0)
 			(effects
 				(font
@@ -11762,7 +11762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 93.98 90)
 			(effects
 				(font
@@ -11942,7 +11942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.222 198.12 90)
 			(effects
 				(font
@@ -12365,7 +12365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 191.77 90)
 			(effects
 				(font
@@ -12436,7 +12436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 347.98 191.77 0)
 			(effects
 				(font
@@ -12508,7 +12508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 151.13 90)
 			(effects
 				(font
@@ -12967,7 +12967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.9652 166.37 0)
 			(effects
 				(font
@@ -13101,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 204.47 90)
 			(effects
 				(font
@@ -13171,7 +13171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 52.07 90)
 			(effects
 				(font
@@ -13305,7 +13305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "Local:BMP581"
 			(at 130.81 332.41 0)
 			(effects
 				(font
@@ -13519,7 +13519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 176.53 90)
 			(effects
 				(font
@@ -13913,7 +13913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 114.3 90)
 			(effects
 				(font
@@ -14046,7 +14046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P244X244X95-7N"
+		(property "Footprint" "Local:SON80P244X244X95-7N"
 			(at 246.38 299.39 0)
 			(effects
 				(font
@@ -14183,7 +14183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -14256,7 +14256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 238.76 90)
 			(effects
 				(font
@@ -14325,7 +14325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" "Local:BMP581"
 			(at 130.81 207.95 0)
 			(effects
 				(font
@@ -14469,7 +14469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON80P244X244X95-7N"
+		(property "Footprint" "Local:SON80P244X244X95-7N"
 			(at 246.38 195.25 0)
 			(effects
 				(font
