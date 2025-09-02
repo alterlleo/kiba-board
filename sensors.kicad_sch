@@ -2393,16 +2393,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 153.67) (xy 323.85 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191ce001-3036-4788-9cba-25c85fb62f3a")
-	)
-	(wire
-		(pts
 			(xy 119.38 81.28) (xy 116.84 81.28)
 		)
 		(stroke
@@ -2793,16 +2783,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 153.67) (xy 326.39 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e92be55-281b-4afe-bfd9-4cd4619591f1")
-	)
-	(wire
-		(pts
 			(xy 111.76 95.25) (xy 116.84 95.25)
 		)
 		(stroke
@@ -2880,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "408eaca6-e5bb-483a-a662-cdaf8ad4effd")
+	)
+	(wire
+		(pts
+			(xy 353.06 153.67) (xy 353.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ff916b-c9df-44fd-b95b-6b3b5762c004")
 	)
 	(wire
 		(pts
@@ -3651,16 +3641,6 @@
 		)
 		(uuid "7b0e4011-4769-46ed-b46c-5d7543383deb")
 	)
-	(wire
-		(pts
-			(xy 331.47 153.67) (xy 331.47 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd5c596-ceb9-475f-b413-d26abc7a14a2")
-	)
 	(polyline
 		(pts
 			(xy 372.872 207.518) (xy 372.872 75.438)
@@ -3893,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 153.67) (xy 326.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b2a5e4-bc95-4281-aa8b-563f56349bfe")
+	)
+	(wire
+		(pts
 			(xy 234.95 170.18) (xy 261.62 170.18)
 		)
 		(stroke
@@ -3940,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "9c1c05c7-4816-4f7e-865d-10f73d6df36f")
-	)
-	(wire
-		(pts
-			(xy 346.71 128.27) (xy 364.49 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8b29c6-7fbf-4ac5-b493-11952bbef50f")
 	)
 	(wire
 		(pts
@@ -4090,6 +4070,16 @@
 			(type default)
 		)
 		(uuid "a4f02883-6db5-43c5-9961-6ab97e18a893")
+	)
+	(wire
+		(pts
+			(xy 323.85 153.67) (xy 323.85 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c196ca-6069-4933-919d-c1d6e9588e22")
 	)
 	(wire
 		(pts
@@ -4351,6 +4341,16 @@
 		)
 		(uuid "b55fc074-4848-4a5c-9cb0-b5a658cc624b")
 	)
+	(wire
+		(pts
+			(xy 334.01 153.67) (xy 334.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c37175-b5d3-40ec-ac35-79801cb6a6b7")
+	)
 	(polyline
 		(pts
 			(xy 180.086 21.844) (xy 272.796 21.844)
@@ -4430,16 +4430,6 @@
 			(type default)
 		)
 		(uuid "bdc01a00-0a4e-44ac-9a2d-159b6f49c177")
-	)
-	(wire
-		(pts
-			(xy 346.71 130.81) (xy 364.49 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd8b93e-8b73-4a87-8b45-60bed4cb9c8f")
 	)
 	(wire
 		(pts
@@ -4883,6 +4873,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 153.67) (xy 350.52 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4644c56-3cc5-42f9-a274-da666612072c")
+	)
+	(wire
+		(pts
 			(xy 344.17 86.36) (xy 334.01 86.36)
 		)
 		(stroke
@@ -5023,16 +5023,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 153.67) (xy 334.01 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e6cffc-ca5e-4245-bb71-e9513c57c12c")
-	)
-	(wire
-		(pts
 			(xy 254 139.7) (xy 254 140.97)
 		)
 		(stroke
@@ -5120,6 +5110,16 @@
 			(type default)
 		)
 		(uuid "ff376be0-8322-45d8-86af-dc6c111db529")
+	)
+	(wire
+		(pts
+			(xy 331.47 153.67) (xy 331.47 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8a9402-06e2-48ba-8b8b-99a2c45c1fed")
 	)
 	(wire
 		(pts
@@ -5233,16 +5233,6 @@
 		)
 		(uuid "0e07e3c9-a699-4a66-8d39-5767894459e3")
 	)
-	(label "SCK_PRESS_1"
-		(at 334.01 170.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1486b995-348d-44c0-8577-1ef67c0453a5")
-	)
 	(label "SCK_PRESS_2"
 		(at 77.47 121.92 0)
 		(effects
@@ -5263,15 +5253,15 @@
 		)
 		(uuid "1e0cc793-41ab-460a-92e9-71475c2774ae")
 	)
-	(label "SCK_PRESS_4"
-		(at 364.49 128.27 180)
+	(label "SCL_GAS_4"
+		(at 334.01 170.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "1e60c20b-dcf1-427b-ab0d-04f35186e4f8")
+		(uuid "23369bfb-abb4-43fb-8577-3938be854dcd")
 	)
 	(label "SDA_GAS_1"
 		(at 302.26 125.73 0)
@@ -5293,6 +5283,16 @@
 		)
 		(uuid "2a54df3d-d695-4e8e-8020-08a53b54ee72")
 	)
+	(label "SCK_PRESS_1"
+		(at 353.06 170.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32ed71b0-047e-4a70-ab8d-0568a569d3ee")
+	)
 	(label "A1"
 		(at 328.93 102.87 270)
 		(effects
@@ -5313,6 +5313,16 @@
 			(justify left bottom)
 		)
 		(uuid "50c1a166-5f56-4050-8f19-9a42bdbee6b9")
+	)
+	(label "SCK_PRESS_4"
+		(at 326.39 171.45 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "551d4ac0-c2e4-48f9-b21c-8e550bea140f")
 	)
 	(label "SDA_PRESS_2"
 		(at 336.55 170.18 90)
@@ -5344,6 +5354,16 @@
 		)
 		(uuid "5a6251e5-63ae-4389-a556-6c3eacc7f8ae")
 	)
+	(label "SDA_GAS_4"
+		(at 331.47 170.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c365973-3efc-4355-b174-f43734a49ee8")
+	)
 	(label "SCL_GAS_2"
 		(at 266.7 100.33 180)
 		(effects
@@ -5353,16 +5373,6 @@
 			(justify right bottom)
 		)
 		(uuid "6568a634-08de-4b9f-ad81-90f446382c2c")
-	)
-	(label "SDA_PRESS_4"
-		(at 364.49 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71d7567a-1b53-4672-ab1d-edea15ed8d07")
 	)
 	(label "A0"
 		(at 331.47 102.87 270)
@@ -5395,35 +5405,15 @@
 		)
 		(uuid "8ea585af-23df-402d-93d2-214d121694e3")
 	)
-	(label "SDA_PRESS_1"
-		(at 331.47 170.18 90)
+	(label "SDA_PRESS_4"
+		(at 323.85 171.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a3f46e13-cbff-42cf-b758-5dd6daf4c74d")
-	)
-	(label "SCL_GAS_4"
-		(at 326.39 170.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6432d7d-25d0-4371-ac58-9cb5aff624b7")
-	)
-	(label "SDA_GAS_4"
-		(at 323.85 170.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a98489e9-6ba4-4ca1-99e0-27dbf9b1041d")
+		(uuid "908f6f42-1073-4c54-8b6a-13fc79b57bc0")
 	)
 	(label "SDA_PRESS_3"
 		(at 77.47 186.69 0)
@@ -5524,6 +5514,16 @@
 			(justify right bottom)
 		)
 		(uuid "d05280f6-98cf-4ad1-8b62-043c41da68f9")
+	)
+	(label "SDA_PRESS_1"
+		(at 350.52 170.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d279b80f-1328-4ff9-95af-8cffc9f26ebc")
 	)
 	(label "SCK_PRESS_3"
 		(at 364.49 133.35 180)
