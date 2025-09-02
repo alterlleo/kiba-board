@@ -4878,7 +4878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -5059,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 121.92 30.988 90)
 			(effects
 				(font
@@ -5200,7 +5200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 188.722 33.02 90)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.118 33.02 90)
 			(effects
 				(font
@@ -6410,7 +6410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 180.34 41.91 0)
 			(effects
 				(font
