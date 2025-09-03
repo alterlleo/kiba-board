@@ -1365,7 +1365,7 @@
 			(pintype "passive")
 			(uuid "59e21132-303b-4d33-b885-b4d7f2e87773")
 		)
-		(model "BMP581.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1899,7 +1899,7 @@
 			(pintype "passive")
 			(uuid "b6838285-cdd7-451a-a53f-84fa3b5d77b1")
 		)
-		(model "SGP40-D-R4.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SGP40-D-R4.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5045,7 +5045,7 @@
 			(pintype "passive")
 			(uuid "febec746-d706-4f15-8be3-bb86079177b0")
 		)
-		(model "SGP40-D-R4.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SGP40-D-R4.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7120,7 +7120,7 @@
 			(pintype "passive")
 			(uuid "06746548-d4b6-4300-acf4-a38c1af0300b")
 		)
-		(model "BMP581.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7937,7 +7937,7 @@
 			(pintype "passive")
 			(uuid "12fdf93b-1553-4cec-aa69-6d1c50183d0b")
 		)
-		(model "BMP581.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10293,7 +10293,7 @@
 			(pintype "passive")
 			(uuid "bb6b9299-6426-4188-8e5a-5ad1d3d452fe")
 		)
-		(model "SGP40-D-R4.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SGP40-D-R4.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14099,7 +14099,7 @@
 			(pintype "passive")
 			(uuid "9554e9bd-a0c4-4284-9fcd-129b0d23d4b3")
 		)
-		(model "SGP40-D-R4.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/SGP40-D-R4.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16049,7 +16049,7 @@
 			(pintype "passive")
 			(uuid "1e446f6f-1486-45b4-b428-6a698c886bf2")
 		)
-		(model "TCA9548ARGERQ1.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/TCA9548ARGERQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16494,7 +16494,7 @@
 		(descr "BMP581-7")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U3"
-			(at -2.52 -0.01 180)
+			(at -2.52 -0.01 360)
 			(layer "F.SilkS")
 			(uuid "3871f194-059b-44b5-971b-66e746c89fd7")
 			(effects
@@ -16844,7 +16844,7 @@
 			(pintype "passive")
 			(uuid "19ba6a06-d8c4-4c95-8778-7f363d65d323")
 		)
-		(model "BMP581.stp"
+		(model "${KIPRJMOD}/lib/3dmodels/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
