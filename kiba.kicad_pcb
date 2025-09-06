@@ -215,7 +215,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/99355b7a-ec0f-4eb1-8152-13cb7e3fe9fc")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -641,7 +641,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/04627a34-0d63-406c-bec6-99f1915fc5aa")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -917,7 +917,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/2a87bfad-27ac-4cee-aecb-68dd8f000d69")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -1.6 -0.25)
 			(end -1.6 -0.25)
@@ -1545,7 +1545,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/485ae514-3d01-436b-9141-91410d62e9fa")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -2023,7 +2023,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at -2.96 0.07 360)
+			(at -2.96 0.07 0)
 			(layer "F.SilkS")
 			(uuid "4aeb144b-193b-4f48-9870-d658c3d98e2a")
 			(effects
@@ -2034,7 +2034,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a3e01c80-4bbf-434c-80a9-3dba13567e0f")
 			(effects
@@ -2087,7 +2087,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/6925f736-04bc-4d33-a7d7-9ddae4cedd8a")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -2189,7 +2189,7 @@
 			(uuid "48177779-a6d4-450f-979a-116078acb758")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f1a04f91-32b7-49cb-a877-fcac153d34e9")
 			(effects
@@ -2300,7 +2300,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/b51c394c-443d-462f-bf07-ef74559f7f4e")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -2449,7 +2449,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at -0.05 -1.44 360)
+			(at -0.05 -1.44 0)
 			(layer "F.SilkS")
 			(uuid "d0ba48ed-6e5d-4660-a569-d67f11209cb3")
 			(effects
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7a51662c-f2e1-402c-80d3-583ed503d66b")
 			(effects
@@ -2615,7 +2615,7 @@
 			(uuid "5769f944-c530-4a8a-88c3-7f9ed2813a33")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7157b11b-5ead-4748-a6a6-5d4a522d1644")
 			(effects
@@ -3429,7 +3429,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/dfaefd3d-c1cc-41a7-80b4-638920de4aa5")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -3913,7 +3913,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "0bee6e0b-3a39-4c98-88cf-7f875999466f")
 			(effects
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8229f3af-cb87-4dcc-8d52-de2e5569e6dd")
 			(effects
@@ -4079,7 +4079,7 @@
 			(uuid "6cf9926b-aca4-4aae-a42d-fb6c927ba1c3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a752d531-efa9-472d-991a-8e84f1a9b016")
 			(effects
@@ -4544,7 +4544,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0.01 -1.4 360)
+			(at 0.01 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "33fcf8a0-555c-475f-b9c4-b826c18a77a1")
 			(effects
@@ -4555,7 +4555,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "acc867c2-5dab-4f5c-95e3-d69b41a2f59b")
 			(effects
@@ -4608,7 +4608,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/fa1fc141-4255-48ee-a0e3-e906100ca4d8")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -4710,7 +4710,7 @@
 			(uuid "583040ab-0de9-4db0-9518-40a03f5ddc19")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7a1f76a9-5aa0-4d7f-8deb-7d57e0ccf5df")
 			(effects
@@ -4883,7 +4883,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/f81cc066-ad7b-413f-93b3-5460eae8c5f2")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_circle
 			(center -1.625 -1.525)
 			(end -1.625 -1.4)
@@ -5078,7 +5078,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at -2.37 -0.02 360)
+			(at -2.37 -0.02 0)
 			(layer "F.SilkS")
 			(uuid "09f509eb-3544-458f-af40-5e216cc0f50c")
 			(effects
@@ -5089,7 +5089,7 @@
 			)
 		)
 		(property "Value" "4.7"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6802175e-4eb8-40df-96f3-a6b1e8cdda33")
 			(effects
@@ -5142,7 +5142,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/46992be0-8371-4899-a6d7-c5e35981a497")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -5244,7 +5244,7 @@
 			(uuid "cb901eeb-cbf8-4924-beb6-b2c577d84eb7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "50051bcb-a70b-43b2-86d4-040e6fe23ca5")
 			(effects
@@ -7088,7 +7088,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/e014111c-8eaf-43d8-b7c0-7b5fd35d1301")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -1.6 -0.25)
 			(end -1.6 -0.25)
@@ -7939,7 +7939,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/70a86a62-f89e-4f0c-917f-d156e8c87cc4")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -8791,7 +8791,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/c0f9c9ba-f0ce-432a-9a46-c111586a10b4")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -9004,7 +9004,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/70840e8f-71b4-4fdd-bd18-7c68f6126519")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -9153,7 +9153,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0.14 1.52 360)
+			(at 0.14 1.52 0)
 			(layer "F.SilkS")
 			(uuid "f3d592a6-8c7c-4d15-b17f-ebe5fbc97be6")
 			(effects
@@ -9164,7 +9164,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2c2483e1-b61c-42fb-ac23-d0134f9be07d")
 			(effects
@@ -9319,7 +9319,7 @@
 			(uuid "7ff76e71-0f0c-4cce-a216-0ea23c0c19b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "823b301e-43ed-4b9b-9d11-d1846c54d842")
 			(effects
@@ -9751,7 +9751,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/612e021a-49f5-42b7-9b29-9cc06e9a475d")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -11989,7 +11989,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0.125 1.39 360)
+			(at 0.125 1.39 0)
 			(layer "F.SilkS")
 			(uuid "b3c1d6da-6acb-4a9b-8f2c-c82614ca5a28")
 			(effects
@@ -12000,7 +12000,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "31a3297a-1f69-4fef-8efd-a554db306916")
 			(effects
@@ -12053,7 +12053,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/6a4da273-c356-4ebc-a06c-a9bf5edbcfaf")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -12155,7 +12155,7 @@
 			(uuid "537662a2-7de4-44a1-8887-ce2c9c79ddbb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2861d8c3-035b-43f3-988e-ea6d421fb4fd")
 			(effects
@@ -12757,7 +12757,7 @@
 			)
 		)
 		(property "Value" "SGP40-D-R4"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0439b1a2-a199-45a2-984c-f30e07009d09")
@@ -12769,7 +12769,7 @@
 			)
 		)
 		(property "Footprint" "Local:SON80P244X244X95-7N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc64a026-9f79-40ae-a1cc-84280136cefa")
@@ -12781,7 +12781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94eb95f0-a195-4ea9-b1c3-ec2fd0765633")
@@ -12793,7 +12793,7 @@
 			)
 		)
 		(property "Description" "Air Quality Sensors Gas Sensor 2.5k pcs IC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d29f63a-9cd1-48cd-8529-df723bc98eba")
@@ -12872,7 +12872,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/fd610940-634a-47cf-84ff-7ad2727f8d99")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_circle
 			(center -1.625 -1.525)
 			(end -1.625 -1.4)
@@ -12975,7 +12975,7 @@
 			(uuid "2a621faa-474b-4521-bba1-11bfd5beaa30")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d01f0ff4-e9f8-421e-b95f-248d6c2da99a")
 			(effects
@@ -14108,7 +14108,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 1.3 360)
+			(at 0 1.3 0)
 			(layer "F.SilkS")
 			(uuid "28110b15-4c55-4308-b39c-7460bb2586dd")
 			(effects
@@ -14119,7 +14119,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4c251660-395d-496b-b45a-b13b0adc21f8")
 			(effects
@@ -14274,7 +14274,7 @@
 			(uuid "90124da6-6969-4736-a81b-07ac4f7307fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "93c82767-ef4b-4480-8ece-c9a8a63e1214")
 			(effects
@@ -14598,7 +14598,7 @@
 		(path "/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee/c71ed87a-ad96-42bc-a229-3552d96aba4c")
 		(sheetname "Sensors")
 		(sheetfile "sensors.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -14758,7 +14758,7 @@
 			)
 		)
 		(property "Value" "BMP581"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2976e2cd-0ffb-4b5b-8e27-53b5faf7689d")
@@ -14770,7 +14770,7 @@
 			)
 		)
 		(property "Footprint" "Local:BMP581"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "adec3c18-2cdc-4dfc-b9a9-d54f62cbaad0")
@@ -14782,7 +14782,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c44a29f-534d-470c-854e-3485f0e12e61")
@@ -14794,7 +14794,7 @@
 			)
 		)
 		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6ca8f34a-795b-45e6-945b-05bd98c3ff53")
@@ -14997,7 +14997,7 @@
 			(uuid "697d9150-7ac6-4ded-9b92-164fd55659c9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "84fdc94c-c753-4068-be75-b90b48bda9e8")
 			(effects
