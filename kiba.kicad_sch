@@ -4349,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "SD1209TT-A1"
+		(property "MPN" "SD1209TT-A1"
 			(at 230.505 87.63 0)
 			(effects
 				(font
@@ -4687,6 +4687,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " TLMS1000-GS15 "
+			(at 190.5 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae5ed91b-b942-4c78-9559-ccbb660092b9")
 		)
@@ -5001,6 +5010,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LM1117MP-3.3/TR"
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb711bd7-be9d-48cc-a168-ef3f92e89f00")
 		)
@@ -5208,6 +5226,15 @@
 		)
 		(property "Store" "TODO: find actual component"
 			(at 210.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W"
+			(at 210.82 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,6 +5805,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "2.54-2*20"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a142c2b0-cb3a-4510-b9cb-053196ac0fae")
 		)
@@ -6097,6 +6133,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " TLMS1000-GS15 "
+			(at 180.34 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "052e61c5-b103-41a0-ad20-c4e3bb0d24d5")
 		)
@@ -6197,6 +6242,15 @@
 			)
 		)
 		(property "Store" "https://www.mouser.it/ProductDetail/Nexperia/2N7002NXAKR?qs=%252B6g0mu59x7JoAsZYPFXqhw%3D%3D"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002NXAKR"
 			(at 212.09 95.25 0)
 			(effects
 				(font
