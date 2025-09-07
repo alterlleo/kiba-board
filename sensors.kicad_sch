@@ -2103,6 +2103,12 @@
 		(uuid "e617ebad-64eb-44c0-b8ec-157a4961af3c")
 	)
 	(junction
+		(at 328.93 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e87196d7-acdf-449d-a521-cddc765d8a2c")
+	)
+	(junction
 		(at 193.04 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2258,7 +2264,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.722 80.518) (xy 315.722 212.598)
+			(xy 311.912 80.518) (xy 311.912 212.598)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2544,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.722 212.598) (xy 394.462 212.598)
+			(xy 311.912 212.598) (xy 394.462 212.598)
 		)
 		(stroke
 			(width 0)
@@ -2925,6 +2931,16 @@
 			(type default)
 		)
 		(uuid "44a007e6-9889-4e20-b9dd-d1c89d037be9")
+	)
+	(wire
+		(pts
+			(xy 328.93 143.51) (xy 337.82 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c31e95-3cb7-4e2e-9f93-69650647daf8")
 	)
 	(wire
 		(pts
@@ -3328,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 134.62) (xy 328.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a82eb7d-a456-4454-9591-77d9f6170cf8")
+	)
+	(wire
+		(pts
 			(xy 193.04 193.04) (xy 193.04 194.31)
 		)
 		(stroke
@@ -3628,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 135.89) (xy 337.82 135.89)
+			(xy 325.12 135.89) (xy 337.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3665,6 +3691,16 @@
 			(type default)
 		)
 		(uuid "95489698-4014-40a2-8c7d-b338c1e18643")
+	)
+	(wire
+		(pts
+			(xy 328.93 125.73) (xy 328.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cd2f1c-2d31-4e74-a4aa-a0e166591e01")
 	)
 	(wire
 		(pts
@@ -3778,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 143.51) (xy 337.82 143.51)
+			(xy 325.12 143.51) (xy 328.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3788,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 138.43) (xy 337.82 138.43)
+			(xy 325.12 138.43) (xy 337.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3798,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 153.67) (xy 337.82 153.67)
+			(xy 320.04 153.67) (xy 337.82 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.722 80.518) (xy 394.462 80.518)
+			(xy 311.912 80.518) (xy 394.462 80.518)
 		)
 		(stroke
 			(width 0)
@@ -4598,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 156.21) (xy 337.82 156.21)
+			(xy 320.04 156.21) (xy 337.82 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4734,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 151.13) (xy 337.82 151.13)
+			(xy 320.04 151.13) (xy 337.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4866,7 @@
 	)
 	(text "I2C SWITCH"
 		(exclude_from_sim no)
-		(at 321.056 79.756 0)
+		(at 317.246 79.756 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4951,7 +4987,7 @@
 		(uuid "37617036-0dfa-4c74-a761-08186f73100f")
 	)
 	(label "A2"
-		(at 321.31 151.13 0)
+		(at 320.04 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4971,7 +5007,7 @@
 		(uuid "4a87a24e-2e07-48a9-bb84-67322296c808")
 	)
 	(label "A0"
-		(at 321.31 156.21 0)
+		(at 320.04 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5011,7 +5047,7 @@
 		(uuid "74a32482-c99d-48fd-b430-7422888ec8bf")
 	)
 	(label "A1"
-		(at 321.31 153.67 0)
+		(at 320.04 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5222,7 +5258,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 326.39 135.89 180)
+		(at 325.12 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5234,7 +5270,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 326.39 138.43 180)
+		(at 325.12 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5246,7 +5282,7 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
-		(at 328.93 143.51 180)
+		(at 325.12 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5408,7 +5444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 68.834 177.8 0)
 			(effects
 				(font
@@ -6074,6 +6110,75 @@
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 328.93 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c017296-cc61-43fe-8f09-2f78d19380ca")
+		(property "Reference" "R1"
+			(at 330.962 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 330.962 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 327.152 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 328.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e96f4ba5-1022-4149-901c-301dbea3efda")
+		)
+		(pin "1"
+			(uuid "823a7e5f-0d17-48d0-9681-e87b91471155")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 81.28 50.7999 0)
 			(effects
 				(font
@@ -8081,7 +8186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 68.834 114.3 0)
 			(effects
 				(font
@@ -8554,7 +8659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 81.28 238.7599 0)
 			(effects
 				(font
@@ -9875,6 +9980,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 328.93 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c0965c-1642-4a2f-905a-290cb9916bdf")
+		(property "Reference" "#PWR6"
+			(at 328.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 328.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 328.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdbc895c-3cbe-45d8-8d73-9610813b7edd")
+		)
+		(instances
+			(project "kiba"
+				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90/20f4cbdc-d1db-4d2f-acce-cbdfb89574ee"
+					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 102.87 0)
 		(unit 1)
@@ -10560,7 +10730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 81.28 177.7999 0)
 			(effects
 				(font
@@ -10908,7 +11078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 68.834 238.76 0)
 			(effects
 				(font
@@ -11367,7 +11537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 68.834 50.8 0)
 			(effects
 				(font
@@ -11637,7 +11807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k2"
 			(at 81.28 114.2999 0)
 			(effects
 				(font
