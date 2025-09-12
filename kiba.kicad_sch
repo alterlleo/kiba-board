@@ -3983,7 +3983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0017192f-4abb-44cc-9566-ec7d21ff2fec")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR025"
 			(at 214.63 111.76 0)
 			(effects
 				(font
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR25")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06c9fe5e-6717-4c85-94d1-c3113d825693")
-		(property "Reference" "#PWR71"
+		(property "Reference" "#PWR071"
 			(at 180.34 54.61 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR71")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c3e0d00-5c6c-4bd7-8890-34cff094e4ce")
-		(property "Reference" "#PWR72"
+		(property "Reference" "#PWR072"
 			(at 190.5 54.61 0)
 			(effects
 				(font
@@ -4163,7 +4163,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR72")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4300,9 +4300,9 @@
 		(at 219.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1a240d9d-b0b5-4ded-96d2-a005bbc7d442")
 		(property "Reference" "BZ1"
 			(at 223.5708 83.0834 0)
@@ -4453,7 +4453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20ed4bc9-34e1-48cf-8a5a-b8fecc1c3e7d")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR026"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -4503,7 +4503,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b040e0-5fcd-491c-859b-72e07dbb37a8")
-		(property "Reference" "#PWR70"
+		(property "Reference" "#PWR070"
 			(at 190.5 30.48 0)
 			(effects
 				(font
@@ -4569,7 +4569,7 @@
 		(instances
 			(project ""
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR70")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37aaeab3-42ff-450c-9ed1-b97f1827ebb5")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR03"
 			(at 168.91 34.29 0)
 			(effects
 				(font
@@ -4635,7 +4635,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR3")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4852,7 +4852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ed4eeac-b024-4dce-99e2-2b60f13306b8")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8658856a-fa31-4d72-bcf1-6a0bd38ee6af")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR022"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -5476,7 +5476,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR22")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5491,7 +5491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b2f5ec9-1919-44e8-b467-4b32bb27ecfd")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 214.63 82.55 0)
 			(effects
 				(font
@@ -5541,7 +5541,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5556,7 +5556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2588d31-f298-47a1-b12d-e034b7f25512")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR023"
 			(at 203.2 111.76 0)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR23")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5801,9 +5801,9 @@
 		(at 95.25 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bc5b1ae9-c2f6-4972-85bb-6d24f3de02e0")
 		(property "Reference" "J1"
 			(at 101.6 68.58 0)
@@ -6076,7 +6076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9b493d6-0993-4895-8ad0-ca4dd19538fe")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR02"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 		(instances
 			(project "kiba"
 				(path "/830d4d2d-479f-4d6d-bef5-9f1041d3fb90"
-					(reference "#PWR2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
